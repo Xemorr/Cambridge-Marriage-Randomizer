@@ -5,7 +5,7 @@ class Person:
         self.name = name
         self.subject = subject
 
-    def __str__(self):
+    def __repr__(self):
         return self.name + " is studying " + self.subject
 
 people = []
